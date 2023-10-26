@@ -1,0 +1,118 @@
+<html>
+    <head>
+        <Title>Serene</Title>
+        <style>
+            nav ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		display: -webkit-flex;
+		justify-content: space-evenly;
+		align-items: center;
+		color: #070404;
+        background-color: #3e57ff;
+		color: #fff;
+	}
+
+	nav ul li {
+		margin: 0;
+		padding: 10px;
+        position: relative;
+	}
+
+	nav ul li a {
+		color: #f1f1f1;
+		text-decoration: none;
+		font-size: 18px;
+        text-transform: uppercase;
+	}
+    nav ul li ::after {
+height: 3px;
+width: 0%;
+background: #070404;
+position: absolute;
+left: 0;
+bottom: -10;
+transition: 0.5s;
+    }
+	nav ul li a:hover{
+		width: 100%;
+        background-color: #ffffff;
+		color: #475B5A;
+	}
+    .kursi{
+    position: justify;
+    width: 80px;
+border-radius: 20px;
+}
+body{
+background-image:url(bg.jpg.png); 
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: 100%;
+background-position: ;
+font-family: Arial, Helvetica, sans-serif;
+text-transform: uppercase;
+}
+
+.content{
+    width: 100%;
+    position: absolute;
+    top: 63%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #000000;
+}
+.content h1{
+    font-size: 70px;
+    margin-top: 120px;
+}
+.content p{
+    margin: 10px;
+    font-weight: 100;
+    line-height: 25px;
+}
+button{
+    width: 200px;
+    padding: 15px;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #3e57ff;
+    background: transparent;
+    color: #000000;
+    cursor: pointer;
+}
+button :hover{
+    width: 100%;
+        background-color: #3e57ff;
+		color: #ffffff;
+}
+        </style>
+    </head>
+    <body>
+        <div>
+            <nav class="navbar">
+                
+                <ul>
+                    <li><img class="kursi" src="kursi.png"  ></li>
+                    <li></li>
+                    <li><a href="Serene.html">Home</a></li>
+                    <li><a href="About Us.html">Tentang Kami</a></li>
+                    <li><a href="Vision & Mission.html">Visi & Misi</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="content">
+            <h1>Mental Health</h1>
+            <p>Rasakan hidup yang lebih bahagia dengan solusi kesehatan mental terbaik
+            </p>
+            <div>
+                <form action="https://www.figma.com/file/bonuFiw77J7NyEshPKPPSz/tester?type=design&node-id=0%3A1&mode=design&t=I4ElbjfNci6lT1rG-1 ">
+                    <button type="submit">Daftar</button>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
